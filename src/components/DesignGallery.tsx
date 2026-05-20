@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import AcquireCtaButton from "./AcquireCtaButton";
 
 /** Mobile: 6 linhas WB/BW (2 cols). Desktop: 3 linhas de 4 — linhas 1–2 W B W B / B W B W; linha 3: W B W B (últimas duas invertidas vs. mobile) */
 const tiles = [
@@ -122,6 +123,10 @@ export default function DesignGallery() {
               />
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-12 flex justify-center px-2 sm:mt-14">
+          <AcquireCtaButton complement="40% OFF HOJE!" />
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
-import { Search, CheckCircle } from "lucide-react";
+import { CheckCircle } from "lucide-react";
+import AcquireCtaButton from "./AcquireCtaButton";
 
 const checklist = [
   { t: "Perfeito para DTF / Serigrafia", d: "Cores sólidas e bordas bem definidas." },
@@ -62,16 +63,10 @@ function QualityList() {
   );
 }
 
-function QualityQuote() {
+function QualityCta() {
   return (
-    <div className="mt-12 p-8 rounded-[32px] bg-gradient-to-br from-purple-900/40 to-blue-900/40 border border-white/10">
-      <div className="flex items-center gap-4 text-white">
-        <Search className="w-10 h-10 shrink-0 text-purple-400" />
-        <p className="font-bold italic">
-          &quot;Foi um dos melhores investimentos que fiz para acelerar minha produção de camisetas.&quot;
-        </p>
-      </div>
-      <p className="text-gray-400 text-xs mt-4 text-right">— Carlos R., Designer têxtil</p>
+    <div className="mt-12 flex justify-center">
+      <AcquireCtaButton complement="ACESSO IMEDIATO E VITALÍCIO" />
     </div>
   );
 }
@@ -97,7 +92,7 @@ export default function QualityProof() {
             viewport={{ once: true }}
           >
             <QualityList />
-            <QualityQuote />
+            <QualityCta />
           </motion.div>
         </div>
 
@@ -118,7 +113,7 @@ export default function QualityProof() {
             <QualityHeading />
             <QualityParagraph />
             <QualityList />
-            <QualityQuote />
+            <QualityCta />
           </motion.div>
         </div>
       </div>
