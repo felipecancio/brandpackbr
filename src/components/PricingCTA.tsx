@@ -51,7 +51,7 @@ export default function PricingCTA() {
           </div>
 
           <motion.a
-            href="https://pay.hotmart.com/P104382859N?off=a0bcdxdl&checkoutMode=10"
+            href="https://pay.hotmart.com/P104382859N?off=9iitp1xa&checkoutMode=10"
             rel="noopener noreferrer"
             animate={{
               boxShadow: [
