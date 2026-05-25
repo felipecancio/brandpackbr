@@ -68,7 +68,7 @@ export default function MockupGrid() {
           </h2>
           <div className="text-gray-500 max-w-2xl mx-auto text-lg space-y-4">
             <p>
-              O Creativarts Brands entrega um verdadeiro arsenal de estampas em alta resolução, prontas para usar em PNG e vetores editáveis.
+              O Criativarts Brands entrega um verdadeiro arsenal de estampas em alta resolução, prontas para usar em PNG e vetores editáveis.
             </p>
             <p>
               São mais de 20 marcas reconhecidas como Nike, Adidas, Gucci, Vans, Louis Vuitton e muitas outras, combinadas com mais de 100 personagens icônicos para criar estampas únicas, originais e altamente atrativas para seus clientes.

@@ -13,15 +13,12 @@ export default function Navbar() {
             <a
               href="#comprar"
               className="flex items-center gap-1.5 md:hidden"
-              aria-label="40% off por tempo limitado — ir para compra"
+              aria-label="Acervo exclusivo, acesso imediato — ir para compra"
             >
-              <span className="text-xs font-bold uppercase leading-tight tracking-wide text-white sm:text-sm">
-                <span className="bg-gradient-to-r from-lime-300 via-emerald-400 to-green-500 bg-clip-text font-black text-transparent">
-                  40% OFF
-                </span>{" "}
-                POR TEMPO LIMITADO
+              <span className="bg-gradient-to-r from-orange-100 via-orange-200 to-red-200 bg-clip-text text-xs font-black uppercase leading-tight tracking-wide text-transparent sm:text-sm">
+                ACERVO EXCLUSIVO, ACESSO IMEDIATO
               </span>
-              <ArrowRight className="h-3.5 w-3.5 shrink-0 text-white/60 sm:h-4 sm:w-4" strokeWidth={2.25} aria-hidden />
+              <ArrowRight className="h-3.5 w-3.5 shrink-0 text-red-200/80 sm:h-4 sm:w-4" strokeWidth={2.25} aria-hidden />
             </a>
           </div>
 

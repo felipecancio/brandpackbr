@@ -16,7 +16,7 @@ export default function PricingCTA() {
             <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" /> OFERTA POR TEMPO LIMITADO
           </div>
 
-          <h2 className="mb-6 text-3xl font-black uppercase italic leading-snug tracking-wide text-white md:text-5xl">
+          <h2 className="mb-4 text-3xl font-black uppercase italic leading-tight tracking-wide text-white sm:mb-6 md:text-5xl md:leading-snug">
             <span className="flex flex-wrap items-center justify-center gap-x-2.5 gap-y-1 md:gap-x-3">
               <span>ACESSO</span>
               <span>COMPLETO</span>
@@ -28,7 +28,7 @@ export default function PricingCTA() {
             </span>
           </h2>
 
-          <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto font-medium">
+          <p className="mx-auto mb-8 max-w-none text-base font-medium text-gray-400 sm:mb-10 sm:max-w-2xl sm:text-lg">
             Acesso imediato às mais de 1.200 estampas, bônus exclusivos, atualizações e suporte. Sem mensalidades. Sem custos escondidos.
           </p>
 

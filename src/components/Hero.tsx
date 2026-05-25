@@ -26,13 +26,13 @@ export default function Hero() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-bold text-white mb-6">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              MAIS DE 1.200 ESTAMPAS PRONTAS
+              ACESSO RÁPIDO, PRÁTICO E VITALÍCIO
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black text-white leading-none mb-6 tracking-tight">
-              CRIATIVARTS <br />
+              SEU ACERVO DEFINITIVO <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-red-500 to-rose-950">
-                BRANDS PACK
+                DE ESTAMPAS PREMIUM
               </span>
             </h1>
 
